@@ -1,0 +1,15 @@
+{application, notfound,
+ [{description, "A small exploration of Cowboy stream handlers and middlewares"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {notfound_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
